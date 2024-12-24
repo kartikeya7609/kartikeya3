@@ -162,3 +162,65 @@ body {
     top: 56%;
     right: 42%;
  }
+ @media (max-width: 412px) {
+    #netflix-logo {
+        width: 120px;
+        height: 31px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-left: 20px;
+    }
+
+    #navbar {
+        padding: 10px 20px;
+    }
+
+    #navbar-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #nav-item1 {
+        gap: 5px;
+    }
+
+    #language {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    #nav-item2_ {
+        width: 90px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .netflix-bg-login-page {
+        height: auto;
+        overflow: visible;
+    }
+
+    #overlay {
+        background: rgba(0, 0, 0, 0.8); /* slightly darker for smaller screens */
+    }
+
+    #h1 {
+        font-size: 1.5em;
+    }
+
+    #h1_part2, #h1_part3 {
+        font-size: 14px;
+    }
+
+    #three {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+
+    #one {
+        width: 80%;
+        height: 45px;
+        font-size: 14px;
+    }
+}
